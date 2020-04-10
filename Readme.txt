@@ -1,0 +1,73 @@
+
+http://localhost:4200/
+http://localhost:2112/api/Projects/AuthContext
+http://localhost:2112/api/Projects/1/MyProjects
+
+https://identityserver4.readthedocs.io/en/latest/misc/training.html
+plurlasight training link angular oidc oauth
+https://www.pluralsight.com/courses/openid-and-oauth2-securing-angular-apps
+admin@globomantics.com
+bob@globomantics.com
+alice@globomantics.com
+mary@globomantics.com
+that password Test123!!!
+
+https://damienbod.com/2017/06/16/angular-oidc-oauth2-client-with-google-identity-platform/
+
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins?view=aspnetcore-3.1
+
+session state
+"Y8xju7NMQsgi2VLJya6IerP1Bxp1upGmYroNpriLfVM.d70a4a9347310118b2dfc7106420f9e5"
+id_token
+"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiOTcyYmUwNThhN2E5MzgzNjIxYmY1NDkwMGFiMTk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODY1MTcwNjMsImV4cCI6MTU4NjUxNzM2MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoic3BhLWNsaWVudCIsImlhdCI6MTU4NjUxNzA2MywiYXRfaGFzaCI6Il9USDJFSWxxUHNwTUZfY2dTd1cxVVEiLCJzaWQiOiJjMGZlMDhjMjEzOTA1YmFlMDNkMTRmMWE0NTkzZTFkYyIsInN1YiI6IjM0YTIxMDFiLTNmMjUtNGEyZC04N2QyLWNhN2FkYjNmZWIxMSIsImF1dGhfdGltZSI6MTU4NjUxNzA1MiwiaWRwIjoibG9jYWwiLCJhbXIiOlsicHdkIl19.s2sUaYrpdTcFAF_Do45vQUa6dn1wWvjp1p2J5Xof5hK230TY0jtbz5wFtSZhFq3VqrfxnbEDgkE8NCpgfKUMI01783Ehy5u1UhB6H5WRSwygKEIuEQd5-5yO6yVFfHQNR6k1Dxo8x6foCo2G-Ik3Jvth0hYLRHDUvqDEIiGYRb9syy9H_jRz6fE0PCPjiIPhAq_2cuSmOFLSTa-uTU8YamDF82Biu75D5r2Rh03EAzP4P4FuuC1-c7_0r2kOImL3eJZzoaaHJPsvJn0tqhWdcoOo-ZwN3kXy7Q1YixRPHnPCaNC20GTxQuq8y-V9p4HVXXyo-6DqDNy5A0O_naT6jQ"
+{
+  "nbf": 1586517063,
+  "exp": 1586517363,
+  "iss": "http://localhost:5000",
+  "aud": "spa-client",
+  "iat": 1586517063,
+  "at_hash": "_TH2EIlqPspMF_cgSwW1UQ",
+  "sid": "c0fe08c213905bae03d14f1a4593e1dc",
+  "sub": "34a2101b-3f25-4a2d-87d2-ca7adb3feb11",
+  "auth_time": 1586517052,
+  "idp": "local",
+  "amr": [
+    "pwd"
+  ]
+}
+
+access_token
+"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiOTcyYmUwNThhN2E5MzgzNjIxYmY1NDkwMGFiMTk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODY1MTcwNjMsImV4cCI6MTU4NjUxNzY2MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9yZXNvdXJjZXMiLCJwcm9qZWN0cy1hcGkiXSwiY2xpZW50X2lkIjoic3BhLWNsaWVudCIsInN1YiI6IjM0YTIxMDFiLTNmMjUtNGEyZC04N2QyLWNhN2FkYjNmZWIxMSIsImF1dGhfdGltZSI6MTU4NjUxNzA1MiwiaWRwIjoibG9jYWwiLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6ImQ2ZWM3YjRhLWNlNDktNDM3Ni04NzIxLTk4OWM5Nzc3NmU3OCIsInByZWZlcnJlZF91c2VybmFtZSI6ImJvYkBnbG9ib21hbnRpY3MuY29tIiwibmFtZSI6ImJvYkBnbG9ib21hbnRpY3MuY29tIiwiZW1haWwiOiJib2JAZ2xvYm9tYW50aWNzLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsInByb2plY3RzLWFwaSJdLCJhbXIiOlsicHdkIl19.JNnMFtKQug1z6DHiQUeLA7A_6w9V-f8cQtxa_oovjyjR2k6YkeZ6w3iN1blarKown_b-LCYrUZku2ezXyCGmxeFC1jMdGHZ9qITsoVcumtRUd5990ITFtwVR4yFdJHsmfoXVryUJgYIDW6KAY8FAKeogq2rDgKC22A__8epKtDe_asnPAxLR2QJhbvVxjUPoB1sjEGlhAcnZ6d1pJI5rnwPISXNAYGewwOZ67ZiyzTvdrRqJKj7Bx7VcjIedKDGTKWdd5luiyc4oyO4Ul1cvQCtuvelEmjEM3QkRL8Qwrt-htYOx1h_fafsGcwIC2YonjmnE3Yvs2I-ZwknQYjRVaQ"
+{
+  "nbf": 1586517063,
+  "exp": 1586517663,
+  "iss": "http://localhost:5000",
+  "aud": [
+    "http://localhost:5000/resources",
+    "projects-api"
+  ],
+  "client_id": "spa-client",
+  "sub": "34a2101b-3f25-4a2d-87d2-ca7adb3feb11",
+  "auth_time": 1586517052,
+  "idp": "local",
+  "AspNet.Identity.SecurityStamp": "d6ec7b4a-ce49-4376-8721-989c97776e78",
+  "preferred_username": "bob@globomantics.com",
+  "name": "bob@globomantics.com",
+  "email": "bob@globomantics.com",
+  "email_verified": false,
+  "scope": [
+    "openid",
+    "profile",
+    "projects-api"
+  ],
+  "amr": [
+    "pwd"
+  ]
+}
+
+access toekn
+
+"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiOTcyYmUwNThhN2E5MzgzNjIxYmY1NDkwMGFiMTk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODY1MTgxNDQsImV4cCI6MTU4NjUxODc0NCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTAwMC9yZXNvdXJjZXMiLCJwcm9qZWN0cy1hcGkiXSwiY2xpZW50X2lkIjoic3BhLWNsaWVudCIsInN1YiI6IjM0YTIxMDFiLTNmMjUtNGEyZC04N2QyLWNhN2FkYjNmZWIxMSIsImF1dGhfdGltZSI6MTU4NjUxODExMCwiaWRwIjoibG9jYWwiLCJBc3BOZXQuSWRlbnRpdHkuU2VjdXJpdHlTdGFtcCI6ImQ2ZWM3YjRhLWNlNDktNDM3Ni04NzIxLTk4OWM5Nzc3NmU3OCIsInByZWZlcnJlZF91c2VybmFtZSI6ImJvYkBnbG9ib21hbnRpY3MuY29tIiwibmFtZSI6ImJvYkBnbG9ib21hbnRpY3MuY29tIiwiZW1haWwiOiJib2JAZ2xvYm9tYW50aWNzLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsInByb2plY3RzLWFwaSJdLCJhbXIiOlsicHdkIl19.XGt9-zGXYoYGJlR8-SQFGfiyrQ7cYf-MDMJZQgoNuzh-ye-nQ_qmJxvF40cz0RdPg5_oBAohAu8gg6qwC_YA5uFL1F5Y7L7WubOgjTTreUYlG2UWLDL-b61fqipN5TC_8X17lSbawosxLb37tiDqojAcenVmaST52WrcJbVp2XKsMoaqWLoBlG3_lyJYA0b1plR1lJdKl4FaG-KZy5fZIsd2M8ApL2AZzBh7skZAoLfQD5t7pU4y4iZv2u5ru8TPDxdAfgZKFeLHWtbdTEXdi-rq38zqaqnDurOOhuS_3Mi_9U7kAeoSYLUC7L8zptjoYAcENbv7PzirlWYMOWGPDQ"
+id_token
+"eyJhbGciOiJSUzI1NiIsImtpZCI6IjdiOTcyYmUwNThhN2E5MzgzNjIxYmY1NDkwMGFiMTk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1ODY1MTcwNjMsImV4cCI6MTU4NjUxNzM2MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwIiwiYXVkIjoic3BhLWNsaWVudCIsImlhdCI6MTU4NjUxNzA2MywiYXRfaGFzaCI6Il9USDJFSWxxUHNwTUZfY2dTd1cxVVEiLCJzaWQiOiJjMGZlMDhjMjEzOTA1YmFlMDNkMTRmMWE0NTkzZTFkYyIsInN1YiI6IjM0YTIxMDFiLTNmMjUtNGEyZC04N2QyLWNhN2FkYjNmZWIxMSIsImF1dGhfdGltZSI6MTU4NjUxNzA1MiwiaWRwIjoibG9jYWwiLCJhbXIiOlsicHdkIl19.s2sUaYrpdTcFAF_Do45vQUa6dn1wWvjp1p2J5Xof5hK230TY0jtbz5wFtSZhFq3VqrfxnbEDgkE8NCpgfKUMI01783Ehy5u1UhB6H5WRSwygKEIuEQd5-5yO6yVFfHQNR6k1Dxo8x6foCo2G-Ik3Jvth0hYLRHDUvqDEIiGYRb9syy9H_jRz6fE0PCPjiIPhAq_2cuSmOFLSTa-uTU8YamDF82Biu75D5r2Rh03EAzP4P4FuuC1-c7_0r2kOImL3eJZzoaaHJPsvJn0tqhWdcoOo-ZwN3kXy7Q1YixRPHnPCaNC20GTxQuq8y-V9p4HVXXyo-6DqDNy5A0O_naT6jQ"
+	
